@@ -7,6 +7,10 @@ pagetype: project
 image: logos/recast-logo.png
 logowidth: 30%
 blurb: Analysis Reinterpretation
+maturity: Deployed
+maturity-note:
+github: https://github.com/recast-hep/recast-atlas
+start-date: 2018-07-23
 focus-area: as
 team:
  - cranmer

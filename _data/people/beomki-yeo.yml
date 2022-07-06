@@ -54,4 +54,42 @@ presentations:
   meetingurl: https://indico.cern.ch/event/855454/contributions/4605075/
   project: acts
   focus-area: ia
+- title: Tracking with ACTS on GPUs
+  date: 2022-01-12
+  url: https://indico.cern.ch/event/1108812/contributions/4664149/attachments/2372004/4051204/220112_annual_meeting_ACTS_GPU_v2.pdf
+  meeting: Annual LBNL ATLAS Meeting
+  meetingurl: https://indico.cern.ch/event/1108812/
+  project: acts
+  focus-area: ia
+- title: Discussion on the (CUDA) navigator in detray
+  date: 2022-02-04
+  url: https://indico.cern.ch/event/1123703/contributions/4717015/attachments/2385160/4076289/220204_detray_navigator.pdf
+  meeting: Acts Parallelization Meeting
+  meetingurl: https://indico.cern.ch/event/1123703/
+  project: acts
+  focus-area: ia
+  location: CERN
+- title: Parallelisation in ACTS
+  date: 2022-03-09
+  url: https://indico.cern.ch/event/1073640/contributions/4515387/attachments/2404989/4113828/220309_Computer_Accelerator_forum.pdf
+  meeting: Compute Accelerator Forum / HSF Reconstruction and Software Triggers
+  meetingurl: https://indico.cern.ch/event/1073640/
+  project: acts
+  focus-area: ia
+  location: CERN
+- title: Future development plan
+  date: 2022-03-18
+  url: https://indico.cern.ch/event/1140956/contributions/4787579/attachments/2410721/4125039/220318_development_plan.pdf
+  meeting: ACTS Parallelization Meeting
+  meetingurl: https://indico.cern.ch/event/1140956/
+  project: acts
+  focus-area: ia
+  location: CERN
+- title: Matrix operations in algebra-plugins
+  date: 2022-04-01
+  url: https://indico.cern.ch/event/1145150/contributions/4806794/attachments/2419814/4141720/220401_matrix_algebra.pdf
+  meeting: ACTS Parallelization Meeting
+  meetingurl: https://indico.cern.ch/event/1145150/
+  project: acts
+  focus-area: ia
   location: CERN

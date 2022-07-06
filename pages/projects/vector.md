@@ -7,6 +7,10 @@ pagetype: project
 image: logos/vector-logo.png
 logowidth: 70%
 blurb: Manipulate vectors
+maturity: Deployed
+maturity-note:
+github: https://github.com/scikit-hep/vector
+start-date: 2018-07-08
 focus-area: as
 team:
 - jpivarski
@@ -28,6 +32,3 @@ Main features of Vector:
       - potential for more: CuPy, TensorFlow, Torch, JAX...
    * NumPy/Awkward backends also implemented in [Numba](https://numba.pydata.org/) for JIT-compiled calculations on vectors.
    * Distinction between geometrical vectors, which have a minimum of attribute and method names, and vectors representing momentum, which have synonyms like `pt` = `rho`, `energy` = `t`, `mass` = `tau`.
-
-
-

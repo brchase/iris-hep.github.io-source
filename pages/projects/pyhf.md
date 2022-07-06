@@ -7,6 +7,10 @@ pagetype: project
 image: logos/pyhf-logo.png
 logowidth: 50%
 blurb: Differentiable likelihoods
+maturity: Deployed
+maturity-note:
+github: https://github.com/scikit-hep/pyhf
+start-date: 2018-01-19
 focus-area: as
 team:
  - cranmer
@@ -35,11 +39,18 @@ team:
 [![CodeFactor](https://www.codefactor.io/repository/github/scikit-hep/pyhf/badge)](https://www.codefactor.io/repository/github/scikit-hep/pyhf)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-### Featured on CERN homepage and in Symmetry Magazine and the CERN Courier
+### Coverage in the media
 
-- The CERN homepage featured an article on pyhf: [New open release allows theorists to explore LHC data in a new way](https://home.cern/news/news/knowledge-sharing/new-open-release-allows-theorists-explore-lhc-data-new-way):  The ATLAS collaboration releases full analysis likelihoods, a first for an LHC experiment. (January, 2020)
-- Symmetry Magazine: [ATLAS releases 'full orchestra' of analysis instruments](https://www.symmetrymagazine.org/article/atlas-releases-full-orchestra-of-analysis-instruments) (January, 2021)
-- CERN Courier [May/June 2021 Issue](https://cds.cern.ch/record/2765233): [LHC reinterpreters think long-term](https://cerncourier.com/a/lhc-reinterpreters-think-long-term/) (April, 2021)
+*  **Featured on CERN homepage and in Symmetry Magazine and the CERN Courier**
+   - The CERN homepage featured an article on pyhf: [New open release allows theorists to explore LHC data in a new way](https://home.cern/news/news/knowledge-sharing/new-open-release-allows-theorists-explore-lhc-data-new-way):  The ATLAS collaboration releases full analysis likelihoods, a first for an LHC experiment. (January, 2020)
+   - Symmetry Magazine: [ATLAS releases 'full orchestra' of analysis instruments](https://www.symmetrymagazine.org/article/atlas-releases-full-orchestra-of-analysis-instruments) (January, 2021)
+   - CERN Courier [May/June 2021 Issue](https://cds.cern.ch/record/2765233): [LHC reinterpreters think long-term](https://cerncourier.com/a/lhc-reinterpreters-think-long-term/) (April, 2021)
+* **Probability model publishing covered in National Academies of Sciences, Engineering, and Medicine report**
+   - National Academies of Sciences, Engineering, and Medicine. 2022. Automated Research Workflows For Accelerated Discovery: Closing the Knowledge Discovery Loop. Washington, DC: The National Academies Press. [doi:10.17226/26532](https://doi.org/10.17226/26532).
+      - Chapter 3: Automated Research Workflows in Action
+   - News Release "[Automated Research Workflows Are Speeding Pace of Scientific Discovery; New Report Offers Recommendations to Advance Their Development][NASEM-news-release]" (May, 2022)
+
+[NASEM-news-release]: https://www.nationalacademies.org/news/2022/05/automated-research-workflows-are-speeding-pace-of-scientific-discovery-new-report-offers-recommendations-to-advance-their-development
 
 ### Recent Talks and Tutorials
 
@@ -48,15 +59,26 @@ team:
 <!-- http://www.get-youtube-thumbnail.com/ -->
 [![SciPy 2020 talk YouTube](http://i3.ytimg.com/vi/FrH9s3eB6fU/hqdefault.jpg)](https://youtu.be/FrH9s3eB6fU)
 
-* [`pyhf` tutorial](https://pyhf.github.io/pyhf-tutorial/) (continually updated to use the lastest `pyhf` release)
+* [`pyhf` tutorial](https://pyhf.github.io/pyhf-tutorial/) (continually updated to use the latest `pyhf` release)
    - Past tutorials (with recordings on YouTube) are listed on the [tutorial GitHub project](https://github.com/pyhf/pyhf-tutorial)
 
-### Use in Publications
+### Citations and Use in Publications
 
-Updating list of citations and use cases of `pyhf`:
+Updating list of citations (from use in analyses and general reference) of `pyhf`:
 
-- Florentin Jaffredo. Revisiting mono-τ tails at the LHC. Dec 2021. [arXiv:2112.14604](https://arxiv.org/abs/2112.14604).
-- ATLAS Collaboration. Implementation of simplified likelihoods in HistFactory for searches for supersymmetry. Geneva, Sep 2021. [https://cds.cern.ch/record/2782654](https://cds.cern.ch/record/2782654).
+- Audrey Kvam. Search for Events with Two Displaced Vertices from Pair-Produced Neutral Long-Lived Particles Decaying to Hadronic Jets in the Muon Spectrometer of the ATLAS Detector with Full Run 2 Data. PhD thesis, Washington U., Seattle, June, 2022. [https://cds.cern.ch/record/2812260](https://cds.cern.ch/record/2812260).
+- ATLAS Collaboration. Search for heavy, long-lived, charged particles with large ionisation energy loss in pp collisions at s√=13 TeV using the ATLAS experiment and the full Run 2 dataset. May 2022. [arxiv:2205.06013](https://arxiv.org/abs/2205.06013).
+- ATLAS Collaboration. SimpleAnalysis: Truth-level Analysis Framework. Apr 2022. [https://cds.cern.ch/record/2805991](https://cds.cern.ch/record/2805991).
+- Tommaso Dorigo et al. Toward the End-to-End Optimization of Particle Physics Instruments with Differentiable Programming: a White Paper. Mar 2022. [arXiv:2203.13818](https://arxiv.org/abs/2203.13818).
+- Alexander Albert et al. Strange quark as a probe for new physics in the Higgs sector. In _2022 Snowmass Summer Study_. Mar 2022. [arXiv:2203.07535](https://arxiv.org/abs/2203.07535).
+- Nathan Simpson and Lukas Heinrich. neos: End-to-End-Optimised Summary Statistics for High Energy Physics. Mar 2022. [arXiv:2203.05570](https://arxiv.org/abs/2203.05570).
+- Harry Enke et al. Survey of Open Data Concepts Within Fundamental Physics: An Initiative of the PUNCH4NFDI Consortium. _Computing and Software for Big Science_, 6(1):6, Mar 2022. [doi:10.1007/s41781-022-00081-7](https://doi.org/10.1007/s41781-022-00081-7).
+- ATLAS Collaboration. Search for neutral long-lived particles in pp collisions at s√=13 TeV that decay into displaced hadronic jets in the ATLAS calorimeter. _JHEP_, 06:005, Jun 2022. [arXiv:2203.01009](https://arxiv.org/abs/2203.01009), [doi:10.1007/JHEP06(2022)005](https://doi.org/10.1007/JHEP06(2022)005).
+- ATLAS Collaboration. Search for events with a pair of displaced vertices from long-lived neutral particles decaying into hadronic jets in the ATLAS muon spectrometer in pp collisions at s√=13 TeV. Mar 2022. [arXiv:2203.00587](https://arxiv.org/abs/2203.00587).
+- Lukas Heinrich and Michael Kagan. Differentiable Matrix Elements with MadJax. Feb 2022. [arXiv:2203.00057](https://arxiv.org/abs/2203.00057).
+- Jim Pivarski, Eduardo Rodrigues, Kevin Pedro, Oksana Shadura, Benjamin Krikler, and Graeme A. Stewart. HL-LHC Computing Review Stage 2, Common Software Projects: Data Science Tools for Analysis. Feb 2022. [arXiv:2202.02194](https://arxiv.org/abs/2202.02194).
+- Florentin Jaffredo. Revisiting mono-tau tails at the LHC. _Eur. Phys. J. C_, 82(6):541, Jun 2022. [arXiv:2112.14604](https://arxiv.org/abs/2112.14604), [doi:10.1140/epjc/s10052-022-10504-9](https://doi.org/10.1140/epjc/s10052-022-10504-9).
+- ATLAS Collaboration. Implementation of simplified likelihoods in HistFactory for searches for supersymmetry. Sep 2021. [https://cds.cern.ch/record/2782654](https://cds.cern.ch/record/2782654).
 - Michael J. Baker, Darius A. Faroughy, and Sokratis Trifinopoulos. Collider Signatures of Coannihilating Dark Matter in Light of the B-Physics Anomalies. Sep 2021. [arXiv:2109.08689](https://arxiv.org/abs/2109.08689).
 - Kyle Cranmer and others. Publishing statistical models: Getting the most out of particle physics experiments. Sep 2021. [arXiv:2109.04981](https://arxiv.org/abs/2109.04981).
 - Kyle Cranmer and Alexander Held. Building and steering binned template fits with cabinetry. _EPJ Web Conf._, 251:03067, 2021. [doi:10.1051/epjconf/202125103067](https://doi.org/10.1051/epjconf/202125103067).

@@ -7,6 +7,10 @@ pagetype: project
 image: logos/root-conda-forge.png
 logowidth: 35%
 blurb: Use ROOT in Conda through Conda-Forge
+maturity: Deployed
+maturity-note:
+github: https://github.com/conda-forge/root-feedstock
+start-date: 2019-01-13
 focus-area: as
 team:
 - henryiii

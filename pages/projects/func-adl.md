@@ -6,6 +6,10 @@ shortname: func-adl
 pagetype: project
 image: logos/Iris-hep-5-just-graphic.png
 blurb: Functional Analysis Description Language
+maturity: Deployed
+maturity-note:
+github: https://github.com/iris-hep/func_adl
+start-date: 2019-09-29
 focus-area: as
 team:
  - gordonwatts
