@@ -1,4 +1,4 @@
-open: yes
+open: no
 postdate: 2020-10-10
 title: Arrow-Native Storage with SkyhookDM and Coffea processor Integration
 description: >
@@ -15,6 +15,6 @@ description: >
   achieve Dask or Spark based parallel computations on ROOT files stored as objects
   in Ceph OSDs.
 contacts:
-- jlefevre
-- ivotron
-- carlosmalt
+  - jlefevre
+  - ivotron
+  - carlosmalt

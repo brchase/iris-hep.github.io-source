@@ -1,4 +1,4 @@
-open: yes
+open: no
 postdate: 2022-01-24
 title: Exploring the FAIR principles for preservation of UFO models
 description: >
@@ -12,6 +12,6 @@ description: >
   and well-documented preservation of these UFO models that can be then easily and reliably used by physicists.
 
 contacts:
-- msneubauer
-- matthewfeickert
-- "[Hans Dembinski](mailto:hans.dembinski@gmail.com)"
+  - msneubauer
+  - matthewfeickert
+  - "[Hans Dembinski](mailto:hans.dembinski@gmail.com)"
